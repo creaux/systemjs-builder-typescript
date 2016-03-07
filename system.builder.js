@@ -9,7 +9,7 @@ builder.config({
         "ts": "node_modules/plugin-typescript/lib/plugin.js",
         "typescript": "node_modules/typescript/lib/typescript.js"
     },
-    baseURL: '/',
+    baseURL: './',
     transpiler: "ts",
     typescriptOptions: {
         module: "system",
